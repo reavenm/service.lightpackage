@@ -8,7 +8,7 @@
     <platform>all</platform>
         <language/>
         <summary lang="en">Lightpack companion</summary>
-        <description lang="en">This service will automatically turn on set Lightpack profiles based on the media played aspect ratio.</description>
+        <description lang="en">This service will automatically turn on and set Lightpack profiles based on the media played aspect ratio.</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <source>https://github.com/reavenm/service.lightpackage</source>
     </extension>
