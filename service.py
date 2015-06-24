@@ -1,7 +1,6 @@
 ﻿#Modules General
 import lightpack
 
-
 # Modules XBMC
 import xbmc, xbmcgui, xbmcaddon
 
