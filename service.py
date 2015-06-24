@@ -1,7 +1,6 @@
 ﻿#Modules General
-import os,lightpack
-import time
-from sys import argv
+import lightpack
+
 
 # Modules XBMC
 import xbmc, xbmcgui, xbmcaddon
