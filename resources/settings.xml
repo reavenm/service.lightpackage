@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <!-- General -->
+  <category label="32050">
+      <setting label="32055" type="enum" id="usage" values="When Kodi starts | When playing media only"/>
+      <setting id="host" type="text" label="32051"  default="127.0.0.1" />
+      <setting id="port" type="number" label="32052" default="3636" />
+      <setting id="apikey" type="text" label="32053" default="" />
+      <setting id="notifications" type="bool" label="32054" default="true" />
+      <setting id="debug" type="bool" label="32056" default="false" />
+      <setting label="32057" type="lsep"/>
+
+  </category>
+  
+  <category label="32060">
+        <setting id="default_enable" type="bool" label="32161"  default="false" />
+        <setting id="default_profile" type="text" label="32061" default="your-profile" subsetting="true" visible="eq(-1,true)" />
+	    <setting id="video_enable" type="bool" label="32162" default="false" />
+        <setting id="video_profile_1" type="text" label="32064" default="" subsetting="true" visible="eq(-1,true)"  />
+        <setting id="video_profile_2" type="text" label="32065" default="" subsetting="true" visible="eq(-2,true)"  />
+        <setting id="video_profile_3" type="text" label="32066" default="" subsetting="true" visible="eq(-3,true)"  />
+        <setting id="video_profile_4" type="text" label="32067" default="" subsetting="true" visible="eq(-4,true)"  />
+        <setting id="video_profile_5" type="text" label="32068" default="" subsetting="true" visible="eq(-5,true)"  />
+        <setting id="video_profile_6" type="text" label="32069" default="" subsetting="true" visible="eq(-6,true)"  />
+        <setting id="video_profile_7" type="text" label="32070" default="" subsetting="true" visible="eq(-7,true)"  />
+        <setting id="video_profile_8" type="text" label="32071" default="" subsetting="true" visible="eq(-8,true)"  />
+        <setting id="video_profile_9" type="text" label="32072" default="" subsetting="true" visible="eq(-9,true)"  />
+        <setting id="video_profile_10" type="text" label="32073" default="" subsetting="true" visible="eq(-10,true)"  />
+	    <setting id="audio_enable" type="bool" label="32163" default="false" />
+        <setting id="audio_profile" type="text" label="32063" default="your-profile" subsetting="true" visible="eq(-1,true)"   />
+  </category>
+  
+</settings>

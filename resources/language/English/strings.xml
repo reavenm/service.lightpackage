@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- category settings -->
+  <string id="32050">General</string>
+  <string id="32051">API host</string>
+  <string id="32052">API port</string>
+  <string id="32053">API key</string>
+  <string id="32054">Enable notifications</string>
+  <string id="32056">Enable debugging</string>
+  <string id="32055">Startup method</string>
+  <string id="32057">* For startup method changes, service must be restarted</string>
+  
+  <string id="32060">Profiles</string>
+  <string id="32161">Enable default profile</string> 
+  <string id="32061">Default profile</string> 
+  <string id="32162">Enable and select video profiles</string>
+  <string id="32064">Video profile 1.33|4:3</string>
+  <string id="32065">Video profile 1.37</string>
+  <string id="32066">Video profile 1.66</string>
+  <string id="32067">Video profile 1.78|16:9</string>
+  <string id="32068">Video profile 1.85</string>
+  <string id="32069">Video profile 2.20</string>
+  <string id="32070">Video profile 2.35</string>
+  <string id="32071">Video profile 2.40</string>
+  <string id="32072">Video profile 2.55</string>
+  <string id="32073">Video profile 2.76</string>
+  <string id="32163">Enable audio profile</string>
+  <string id="32063">Audio profile</string>
+  
+</strings>
