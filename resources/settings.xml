@@ -6,7 +6,7 @@
       <setting id="host" type="text" label="32051"  default="127.0.0.1" />
       <setting id="port" type="number" label="32052" default="3636" />
       <setting id="apikey" type="text" label="32053" default="" />
-      <setting id="notifications" type="bool" label="32054" default="true" />
+      <setting type="sep"/>
       <setting id="debug" type="bool" label="32056" default="false" />
       <setting label="32057" type="lsep"/>
 

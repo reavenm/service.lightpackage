@@ -5,7 +5,6 @@
   <string id="32051">API host</string>
   <string id="32052">API port</string>
   <string id="32053">API key</string>
-  <string id="32054">Enable notifications</string>
   <string id="32056">Enable debugging</string>
   <string id="32055">Startup method</string>
   <string id="32057">* For startup method changes, service must be restarted</string>

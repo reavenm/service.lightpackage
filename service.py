@@ -18,22 +18,15 @@ __language__ = __settings__.getLocalizedString
 lpack = lightpack.lightpack(__settings__.getSetting("host"), int(__settings__.getSetting("port")), __settings__.getSetting("apikey"), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 startUpMode = __settings__.getSetting("usage")
 
-
-LOGDEBUG = 2
-LOGNOTICE = 0
-
-
 ###########################################################
 
 
 def log(msg):
+    LOGDEBUG = 2
     message = '%s: %s' % (__settings__.getAddonInfo("name"), msg)
     if __settings__.getSetting("debug") == "true":
             level = LOGDEBUG
             xbmc.log(message, level)
-    else:
-        level = LOGNOTICE
-        xbmc.log(message, level)
 
 
 def setProfile(enable, profile):
@@ -71,6 +64,7 @@ class Main:
 
     def __init__(self):
         self.Player = LightPlayer()
+        # add code to try to catch if lightpack/prismatik is installed if not exit service
         if startUpMode == '0' and __settings__.getSetting("default_enable") == "true":
             xbmc.sleep(200)
             log('Active while Kodi is running')
