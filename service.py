@@ -35,13 +35,6 @@ def log(msg):
         level = LOGNOTICE
         xbmc.log(message, level)
 
-def notification(text):
-    text = text.encode('utf-8')
-    icon = __settings__.getAddonInfo("icon")
-    smallicon = icon.encode("utf-8")
-    if __settings__.getSetting("notification") == "true":
-        xbmc.executebuiltin('Notification(Lightpack,'+text+',3000,' + smallicon + ')')
-
 
 def setProfile(enable, profile):
     if enable:
