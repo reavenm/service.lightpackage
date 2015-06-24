@@ -64,7 +64,7 @@ class Main:
 
     def __init__(self):
         self.Player = LightPlayer()
-        # add code to try to catch if lightpack/prismatik is installed if not exit service
+        # add code to try to catch if lightpack/prismatik is installed if not exit service, try code already on lpack.connect check lightpack.py
         if startUpMode == '0' and __settings__.getSetting("default_enable") == "true":
             xbmc.sleep(200)
             log('Active while Kodi is running')
