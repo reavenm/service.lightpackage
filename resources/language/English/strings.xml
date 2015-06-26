@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <strings>
-  <!-- category settings -->
+  <!-- General settings -->
   <string id="32050">General</string>
   <string id="32051">API host</string>
   <string id="32052">API port</string>
@@ -8,7 +8,8 @@
   <string id="32056">Enable debugging</string>
   <string id="32055">Startup method</string>
   <string id="32057">* For startup method changes, service must be restarted</string>
-  
+
+  <!-- Profiles settings -->
   <string id="32060">Profiles</string>
   <string id="32161">Enable default profile</string> 
   <string id="32061">Default profile</string> 
@@ -25,5 +26,8 @@
   <string id="32073">Video profile 2.76</string>
   <string id="32163">Enable audio profile</string>
   <string id="32063">Audio profile</string>
-  
+
+  <!-- custom strings -->
+  <string id="32070">Select profile</string>
+  <string id="32071">Off</string>
 </strings>
