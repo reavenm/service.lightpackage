@@ -79,13 +79,13 @@ class Main:
         else:
             log('active while playing media only')
 
-        while not xbmc.abortRequested:
-            xbmc.sleep(500)
-        lpack.connect()
-        lpack.lock()
-        lpack.turnOff()
-        lpack.unlock()
-        lpack.disconnect()
+        while True:
+            if xbmc.Monitor().waitForAbort(10):
+                lpack.connect()
+                lpack.lock()
+                lpack.turnOff()
+                lpack.unlock()
+                lpack.disconnect()
 
 
 class LightPlayer(xbmc.Player):
