@@ -86,6 +86,7 @@ class Main:
                 lpack.turnOff()
                 lpack.unlock()
                 lpack.disconnect()
+                break
 
 
 class LightPlayer(xbmc.Player):
