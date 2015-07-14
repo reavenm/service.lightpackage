@@ -8,9 +8,7 @@
     <platform>all</platform>
         <language/>
         <summary lang="en">Lightpack automatic manager</summary>
-        <description lang="en">Lightpack is content-driven lighting system for your displays (TV or monitor), 
-        working with your PC or Mac to watch movies, play games, or work on Windows, Linux and Mac OS X systems.
-        This service will automatically turn on/off and set a Lightpack profile based on the playing media aspect ratio.</description>
+        <description lang="en">Lightpack is content-driven lighting system for your displays (TV or monitor), working with your PC or Mac to watch movies, play games, or work on Windows, Linux and Mac OS X systems.This service will automatically turn on/off and set a Lightpack profile based on the playing media aspect ratio.</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <source>https://github.com/reavenm/service.lightpackage</source>
     </extension>
