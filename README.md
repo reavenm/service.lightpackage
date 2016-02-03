@@ -2,6 +2,7 @@
 A Lightpack companion
 
 A Lightpack, TV ambientlight service companion for Kodi
+* Based on Atarity, Eraser original script.
 #### [Features]
 - Start Lightpack with Kodi or use it only while playing media, either way 
 	the service will read the playing media aspect ratio and enable the closer Lightpack profile set in settings
@@ -19,4 +20,4 @@ A Lightpack, TV ambientlight service companion for Kodi
 ![Screenshot](http://i93.photobucket.com/albums/l66/reavenm/Screen%20Shot%202015-06-24%20at%2012.10.00%20PM_zpswx3k0xxs.png)
 
 *Lightpack - (lightpack.tv)
-* Based on Atarity, Eraser original script.
+
