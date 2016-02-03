@@ -19,3 +19,4 @@ A Lightpack, TV ambientlight service companion for Kodi
 ![Screenshot](http://i93.photobucket.com/albums/l66/reavenm/Screen%20Shot%202015-06-24%20at%2012.10.00%20PM_zpswx3k0xxs.png)
 
 *Lightpack - (lightpack.tv)
+* Based on Atarity, Eraser original script.
