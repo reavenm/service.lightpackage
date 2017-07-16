@@ -17,8 +17,8 @@ A Lightpack, TV ambientlight service companion for Kodi
 #### [Comments]
 - http://forum.kodi.tv/showthread.php?tid=230428
 	
-![Screenshot](http://i93.photobucket.com/albums/l66/reavenm/Screen%20Shot%202015-06-24%20at%2012.10.10%20PM_zpspgguyhyi.png)
-![Screenshot](http://i93.photobucket.com/albums/l66/reavenm/Screen%20Shot%202015-06-24%20at%2012.10.00%20PM_zpswx3k0xxs.png)
+![Screenshot](http://i68.tinypic.com/2dwewjn.png)
+![Screenshot](http://i67.tinypic.com/2uxwdwl.png)
 
 *Lightpack - (lightpack.tv)
 
